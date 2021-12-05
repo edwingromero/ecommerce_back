@@ -46,6 +46,6 @@ class Curso extends Model
 
         $relation = $this->getRelation('avgCalificacion')->first();
 
-        return ($relation) ? $relation->aggregate : null;
+        return ($relation) ? $relation->promedio : null;
     }
 }

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-//use Illuminate\Http\JsonResponse;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-//use JWTAuth;
+use JWTAuth;
 use Symfony\Component\HttpFoundation\Response;
 
 class AuthController extends Controller

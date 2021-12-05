@@ -17,7 +17,7 @@ class CursoFactory extends Factory
         return [
             'nombre' => $this->faker->realText(rand(10, 15)),
             'resumen' => $this->faker->realText(rand(200, 300)),
-            'imagen' => $this->file_get_contents_curl('https://placeimg.com/640/480/any'),
+            'imagen' => $this->file_get_contents_curl('https://placeimg.com/600/600/any'),
             'autor_id' => rand(1,10)
         ];
     }
